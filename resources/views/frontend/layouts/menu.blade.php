@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg main_menu">
     <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="{{ route('home') }}">
             <img src="{{ asset('frontend/assets/images/logo.png') }}" alt="FoodPark" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">about</a>
@@ -34,7 +34,7 @@
                         <li><a href="404.html">404/Error</a></li>
                         <li><a href="faq.html">FAQs</a></li>
                         <li><a href="{{ route('login') }}">sign in</a></li>
-                        <li><a href="sign_up.html">sign up</a></li>
+                        <li><a href="{{ route('register') }}">sign up</a></li>
                         <li><a href="forgot_password.html">forgot password</a></li>
                         <li><a href="privacy_policy.html">privacy policy</a></li>
                         <li><a href="terms_condition.html">terms and condition</a></li>
