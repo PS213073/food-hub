@@ -33,7 +33,7 @@
                         <li><a href="search_menu.html">search result</a></li>
                         <li><a href="404.html">404/Error</a></li>
                         <li><a href="faq.html">FAQs</a></li>
-                        <li><a href="sign_in.html">sign in</a></li>
+                        <li><a href="{{ route('login') }}">sign in</a></li>
                         <li><a href="sign_up.html">sign up</a></li>
                         <li><a href="forgot_password.html">forgot password</a></li>
                         <li><a href="privacy_policy.html">privacy policy</a></li>
@@ -62,7 +62,7 @@
                     <a class="cart_icon"><i class="fas fa-shopping-basket"></i> <span>5</span></a>
                 </li>
                 <li>
-                    <a href="dashboard.html"><i class="fas fa-user"></i></a>
+                    <a href="{{ route('login') }}"><i class="fas fa-user"></i></a>
                 </li>
                 <li>
                     <a class="common_btn" href="#" data-bs-toggle="modal"
